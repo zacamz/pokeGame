@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <button id="searchButton">Get A Pokemon</button>
+            <label for="answer">Is your pokemon correct?</label>
+            <input type="text" id="answer"/>
+            <button id="checkButton">Check</button>
+            <p id="answerDisplay"></p>
+        </div>
+        <div class="main">
+            <h3 id="pokeHeader"></h3>
+            <img id="pokeImage"/>
+            <img id="silhouette" class="silhouette"/>
+        </div>
+        <div class="footer">
+        </div>
+        <script src="code.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/spin-wheel@4.1.1/dist/spin-wheel-iife.js"></script>
+    </body>
+</html>

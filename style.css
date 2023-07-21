@@ -1,0 +1,20 @@
+.main {
+    background: url("whosthatpokemonbackground.jpg");
+    background-size: cover;
+    min-width: 37em;
+    min-height: 37em;
+}
+
+.correctImage {
+    opacity: 1;
+    z-index: -999;
+    min-width: 600px;
+}
+
+.silhouette {
+    -webkit-filter: contrast(0) sepia(100%) hue-rotate(190deg) saturate(2000%) brightness(50%);
+    filter: contrast(0) sepia(100%) hue-rotate(190deg) saturate(2000%) brightness(50%);
+    opacity: 1;
+    z-index: -998;
+    min-width: 600px;
+}
