@@ -1,5 +1,5 @@
-.main {
-    background: url("whosthatpokemonbackground.jpg");
+html {
+    background: url("whosthatpokemonbackground.jpg") no-repeat;
     background-size: cover;
     min-width: 37em;
     min-height: 37em;
